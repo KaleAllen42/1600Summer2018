@@ -235,8 +235,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 0
-  PowerLevel: 0
   PlayerName: Star
+  Health: 10
+  LegCount: 1
+  PowerLevel: {fileID: 0}
+  PowerUp: {fileID: 0}
   ScaleCount: 9000
 --- !u!114 &585488909
 MonoBehaviour:
@@ -250,8 +253,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 1
-  PowerLevel: 10
   PlayerName: Star
+  Health: 10
+  LegCount: 1
+  PowerLevel: {fileID: 0}
+  PowerUp: {fileID: 0}
 --- !u!23 &585488910
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -347,8 +353,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 1
-  PowerLevel: 10
   PlayerName: Hank
+  Health: 10
+  LegCount: 1
+  PowerLevel: {fileID: 0}
+  PowerUp: {fileID: 0}
 --- !u!23 &839007530
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -682,8 +691,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 0
-  PowerLevel: 50
   PlayerName: Hank
+  Health: 10
+  LegCount: 1
+  PowerLevel: {fileID: 0}
+  PowerUp: {fileID: 0}
 --- !u!1 &1849755387
 GameObject:
   m_ObjectHideFlags: 0
@@ -718,8 +730,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 25
-  PowerLevel: 50
   PlayerName: Wilbur
+  Health: 10
+  LegCount: 1
+  PowerLevel: {fileID: 0}
+  PowerUp: {fileID: 0}
   Breath: 1
   HairCount: 0
 --- !u!23 &1849755389

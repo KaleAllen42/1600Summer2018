@@ -15,9 +15,9 @@ public class Animal : ScriptableObject {
 
     public PowerUpBase PowerUp;
 
-    //public void UpdateHealth();
-    //{
-     // Have the powerUp give us information
-     //Health += PowerUp.PowerLevel;
-    //}
+    public void UpdateHealth();
+    {
+    // Have the powerUp give us information
+    Health += PowerUp.PowerLevel;
+    }
 }
