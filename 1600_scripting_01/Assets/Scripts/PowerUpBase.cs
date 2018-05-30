@@ -5,6 +5,10 @@ using UnityEngine;
 [CreateAssetMenu]
 public class PowerUpBase : ScriptableObject
    {
-       public float PowerLevel = 10.0f;
-       public PowerUpBase PowerUp;
+       public Animal AnyAnimal; 
+       public float PowerLevel = 1.0f;
+       public void RunPowerUp()
+    {
+        //AnyAnimal.Health += PowerLevel;
+    }
    }

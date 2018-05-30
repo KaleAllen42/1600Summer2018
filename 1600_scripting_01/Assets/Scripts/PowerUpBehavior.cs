@@ -8,6 +8,7 @@ public class PowerUpBehavior : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
+        PowerUp.RunPowerUp();
         gameObject.SetActive(false);
     }
 }
