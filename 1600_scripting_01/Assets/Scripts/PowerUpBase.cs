@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu]
 public class PowerUpBase : ScriptableObject
    {
-       public Animal AnyAnimal; 
+       public Animal2 AnyAnimal; 
        public float PowerLevel = 1.0f;
        public void RunPowerUp()
     {

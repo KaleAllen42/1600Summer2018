@@ -15,10 +15,29 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="Animal.cs" t="Include" />
-          <e p="Fish.cs" t="Include" />
-          <e p="Mamal.cs" t="Include" />
-          <e p="StartAndUpdate.cs" t="Include" />
+          <e p="Ammunition" t="Include">
+            <e p="Ammunition.cs" t="Include" />
+          </e>
+          <e p="Animals" t="Include">
+            <e p="Animal.cs" t="Include" />
+            <e p="AnimalBehavior.cs" t="Include" />
+            <e p="AnimalInfo.cs" t="Include" />
+            <e p="Fish.cs" t="Include" />
+            <e p="Mamal.cs" t="Include" />
+          </e>
+          <e p="Health" t="Include">
+            <e p="HealthPowerUp.cs" t="Include" />
+          </e>
+          <e p="OldScripts" t="Include">
+            <e p="StartAndUpdate.cs" t="Include" />
+          </e>
+          <e p="PowerUp.cs" t="Include" />
+          <e p="PowerUpBase.cs" t="Include" />
+          <e p="PowerUpBehavior.cs" t="Include" />
+          <e p="Rockets" t="Include">
+            <e p="RocketBase.cs" t="Include" />
+            <e p="Rockets.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
