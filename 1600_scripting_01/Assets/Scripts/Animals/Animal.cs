@@ -4,8 +4,8 @@ using UnityEngine;
 
 
 
-[CreateAssetMenu()]
-public class Animal : ScriptableObject {
+
+public class Animal : MonoBehaviour {
 
     public float Speed = 1.0f;
     public string PlayerName;
