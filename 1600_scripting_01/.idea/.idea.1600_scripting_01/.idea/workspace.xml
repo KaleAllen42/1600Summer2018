@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.1600_scripting_01/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.1600_scripting_01/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.1600_scripting_01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.1600_scripting_01/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Hello_World.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hello_World.unity" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Animals/Animal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Animals/Animal.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Animals/AnimalBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Animals/AnimalBehavior.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health/HealthDown5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health/HealthDown5.asset" afterDir="false" />
@@ -15,6 +16,8 @@
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PowerUps.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Rockets/RocketBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Rockets/RocketBase.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+=======
+>>>>>>> master
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,19 +28,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Animal2.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Plugins/Second_scripts/Animal2.cs">
+      <file leaf-file-name="HealthBehavior.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Health/HealthBehavior.cs">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="30">
               <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+=======
+            <state relative-caret-position="255">
+              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+>>>>>>> master
               <folding>
-                <marker date="1526957218081" expanded="false" signature="6:78" ph="..." />
-                <marker date="1526957218081" expanded="true" signature="138:258" ph="{...}" />
+                <marker date="1528133244642" expanded="false" signature="6:100" ph="..." />
+                <marker date="1528133244642" expanded="true" signature="145:456" ph="{...}" />
+                <marker date="1528133244642" expanded="true" signature="291:336" ph="{...}" />
+                <marker date="1528133244642" expanded="true" signature="390:454" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="AnimalBehavior.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Animals/AnimalBehavior.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,24 +94,36 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+=======
+      <file leaf-file-name="PlayerTrigger.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerTrigger.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+>>>>>>> master
               <folding>
-                <marker date="1526957523695" expanded="false" signature="6:78" ph="..." />
-                <marker date="1526957523695" expanded="true" signature="128:209" ph="{...}" />
+                <marker date="1528133346833" expanded="false" signature="6:117" ph="..." />
+                <marker date="1528133346833" expanded="true" signature="161:481" ph="{...}" />
+                <marker date="1528133346833" expanded="true" signature="274:302" ph="{...}" />
+                <marker date="1528133346833" expanded="true" signature="328:479" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="AnimalBehavior.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Plugins/Second_scripts/AnimalBehavior.cs">
+=======
+      <file leaf-file-name="FloatData.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs">
+>>>>>>> master
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="15">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
               <folding>
-                <marker date="1526957896763" expanded="false" signature="6:78" ph="..." />
-                <marker date="1526957896763" expanded="true" signature="123:303" ph="{...}" />
-                <marker date="1526957896763" expanded="true" signature="204:239" ph="{...}" />
-                <marker date="1526957896763" expanded="true" signature="294:301" ph="{...}" />
+                <marker date="1528133130226" expanded="false" signature="6:107" ph="..." />
+                <marker date="1528133130226" expanded="true" signature="167:208" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -125,12 +148,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+<<<<<<< HEAD
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Second_scripts/AnimalBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animals/Animal.cs" root0="FORCE_HIGHLIGHTING" />
+=======
+>>>>>>> master
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Second_scripts/Animal2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animals/Animal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rockets/RocketBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Second_scripts/Mammal.cs" root0="FORCE_HIGHLIGHTING" />
+<<<<<<< HEAD
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animals/AnimalBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rockets/RocketBase.cs" root0="FORCE_HIGHLIGHTING" />
+=======
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Second_scripts/AnimalBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Health/HealthBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> master
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -142,8 +177,15 @@
         <option value="$PROJECT_DIR$/Assets/Plugins/Second_scripts/AnimalBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Rockets/RocketBase.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Animals/Animal.cs" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Assets/Scripts/Animals/AnimalBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PowerUpBase.cs" />
+=======
+        <option value="$PROJECT_DIR$/Assets/Scripts/Trigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Health/HealthBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerTrigger.cs" />
+>>>>>>> master
       </list>
     </option>
   </component>
@@ -165,6 +207,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -177,16 +224,13 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="Scratches" />
-      <pane id="SolutionExplorer">
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="do_not_show_unity_auto_save_notification" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.build.unityPlugin" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -218,12 +262,23 @@
       <updated>1526955497176</updated>
       <workItem from="1526955514232" duration="302000" />
       <workItem from="1526956321328" duration="1655000" />
+<<<<<<< HEAD
       <workItem from="1527734030569" duration="477000" />
+=======
+      <workItem from="1528126585088" duration="895000" />
+      <workItem from="1528128002145" duration="183000" />
+      <workItem from="1528128217438" duration="107000" />
+      <workItem from="1528128631513" duration="5285000" />
+>>>>>>> master
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="2434000" />
+=======
+    <option name="totallyTimeSpent" value="8427000" />
+>>>>>>> master
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -235,18 +290,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="7" />
     <editor active="true" />
+=======
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+>>>>>>> master
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Errors In Solution" order="3" weight="0.32995737" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Unit Tests" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18799682" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19296375" />
+>>>>>>> master
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -273,11 +336,19 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/Second_scripts/Animal2.cs">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="75">
           <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
           <folding>
             <marker date="1526957218081" expanded="false" signature="6:78" ph="..." />
             <marker date="1526957218081" expanded="true" signature="138:258" ph="{...}" />
+=======
+        <state relative-caret-position="165">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <marker date="1527122611251" expanded="false" signature="6:78" ph="..." />
+            <marker date="1527122611251" expanded="true" signature="138:258" ph="{...}" />
+>>>>>>> master
           </folding>
         </state>
       </provider>
@@ -285,16 +356,24 @@
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/Second_scripts/Mammal.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
+<<<<<<< HEAD
           <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
           <folding>
             <marker date="1526957523695" expanded="false" signature="6:78" ph="..." />
             <marker date="1526957523695" expanded="true" signature="128:209" ph="{...}" />
+=======
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <marker date="1527122611257" expanded="false" signature="6:78" ph="..." />
+            <marker date="1527122611257" expanded="true" signature="128:209" ph="{...}" />
+>>>>>>> master
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/Second_scripts/AnimalBehavior.cs">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="120">
           <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding>
@@ -302,23 +381,48 @@
             <marker date="1526957896763" expanded="true" signature="123:303" ph="{...}" />
             <marker date="1526957896763" expanded="true" signature="204:239" ph="{...}" />
             <marker date="1526957896763" expanded="true" signature="294:301" ph="{...}" />
+=======
+        <state relative-caret-position="210">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <marker date="1527122611251" expanded="false" signature="6:78" ph="..." />
+            <marker date="1527122611251" expanded="true" signature="123:303" ph="{...}" />
+            <marker date="1527122611251" expanded="true" signature="204:239" ph="{...}" />
+            <marker date="1527122611251" expanded="true" signature="294:301" ph="{...}" />
+>>>>>>> master
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Rockets/RocketBase.cs">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="45">
           <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
           <folding>
             <marker date="1527734051286" expanded="false" signature="6:78" ph="..." />
             <marker date="1527734051286" expanded="true" signature="142:201" ph="{...}" />
+=======
+        <state relative-caret-position="75">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Animals/Animal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <marker date="1528128412628" expanded="false" signature="6:78" ph="..." />
+            <marker date="1528128412628" expanded="true" signature="119:253" ph="{...}" />
+>>>>>>> master
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mamal.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Second_scripts/Animal2.cs">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="90">
           <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
@@ -341,6 +445,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+=======
+        <state relative-caret-position="165">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <marker date="1527122611251" expanded="false" signature="6:78" ph="..." />
+            <marker date="1527122611251" expanded="true" signature="138:258" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -349,21 +460,208 @@
         <state relative-caret-position="75">
           <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
           <folding>
-            <marker date="1526957523695" expanded="false" signature="6:78" ph="..." />
-            <marker date="1526957523695" expanded="true" signature="128:209" ph="{...}" />
+            <marker date="1527122611257" expanded="false" signature="6:78" ph="..." />
+            <marker date="1527122611257" expanded="true" signature="128:209" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/Second_scripts/AnimalBehavior.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="240">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
           <folding>
-            <marker date="1526957896763" expanded="false" signature="6:78" ph="..." />
-            <marker date="1526957896763" expanded="true" signature="123:303" ph="{...}" />
-            <marker date="1526957896763" expanded="true" signature="204:239" ph="{...}" />
-            <marker date="1526957896763" expanded="true" signature="294:301" ph="{...}" />
+            <marker date="1527122611251" expanded="false" signature="6:78" ph="..." />
+            <marker date="1527122611251" expanded="true" signature="123:303" ph="{...}" />
+            <marker date="1527122611251" expanded="true" signature="204:239" ph="{...}" />
+            <marker date="1527122611251" expanded="true" signature="294:301" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Animals/Animal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Rockets/RocketBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Second_scripts/Animal2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <marker date="1527122611251" expanded="false" signature="6:78" ph="..." />
+            <marker date="1527122611251" expanded="true" signature="138:258" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Second_scripts/Mammal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <marker date="1527122611257" expanded="false" signature="6:78" ph="..." />
+            <marker date="1527122611257" expanded="true" signature="128:209" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Rockets/RocketBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Second_scripts/AnimalBehavior.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Second_scripts/Animal2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <marker date="1527122611251" expanded="false" signature="6:78" ph="..." />
+            <marker date="1527122611251" expanded="true" signature="138:258" ph="{...}" />
+          </folding>
+>>>>>>> master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Second_scripts/Mammal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="75">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+=======
+        <state relative-caret-position="105">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+>>>>>>> master
+          <folding>
+            <marker date="1527122611257" expanded="false" signature="6:78" ph="..." />
+            <marker date="1527122611257" expanded="true" signature="128:209" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Second_scripts/AnimalBehavior.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mamal.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Animal.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Fish.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Animal.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mamal.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Second_scripts/Animal2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <marker date="1527122611251" expanded="false" signature="6:78" ph="..." />
+            <marker date="1527122611251" expanded="true" signature="138:258" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Second_scripts/Mammal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <marker date="1527122611257" expanded="false" signature="6:78" ph="..." />
+            <marker date="1527122611257" expanded="true" signature="128:209" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Rockets/RocketBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Second_scripts/AnimalBehavior.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <marker date="1527122611251" expanded="false" signature="6:78" ph="..." />
+            <marker date="1527122611251" expanded="true" signature="123:303" ph="{...}" />
+            <marker date="1527122611251" expanded="true" signature="204:239" ph="{...}" />
+            <marker date="1527122611251" expanded="true" signature="294:301" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Trigger.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Animals/Animal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <marker date="1528128412628" expanded="false" signature="6:78" ph="..." />
+            <marker date="1528128412628" expanded="true" signature="119:253" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <marker date="1528133130226" expanded="false" signature="6:107" ph="..." />
+            <marker date="1528133130226" expanded="true" signature="167:208" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerTrigger.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+          <folding>
+            <marker date="1528133346833" expanded="false" signature="6:117" ph="..." />
+            <marker date="1528133346833" expanded="true" signature="161:481" ph="{...}" />
+            <marker date="1528133346833" expanded="true" signature="274:302" ph="{...}" />
+            <marker date="1528133346833" expanded="true" signature="328:479" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Health/HealthBehavior.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <marker date="1528133244642" expanded="false" signature="6:100" ph="..." />
+            <marker date="1528133244642" expanded="true" signature="145:456" ph="{...}" />
+            <marker date="1528133244642" expanded="true" signature="291:336" ph="{...}" />
+            <marker date="1528133244642" expanded="true" signature="390:454" ph="{...}" />
           </folding>
         </state>
       </provider>

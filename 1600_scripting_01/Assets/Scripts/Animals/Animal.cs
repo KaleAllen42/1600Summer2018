@@ -4,7 +4,11 @@ using UnityEngine;
 
 
 
+<<<<<<< HEAD
 [CreateAssetMenu()]
+=======
+
+>>>>>>> master
 public class Animal : MonoBehaviour {
 
     public float Speed = 1.0f;
