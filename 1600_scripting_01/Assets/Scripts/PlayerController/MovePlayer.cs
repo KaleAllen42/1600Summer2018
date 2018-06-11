@@ -8,9 +8,12 @@ public class MovePlayer : MonoBehaviour
 
 	private CharacterController controller;
 	private Vector3 newPosition;
-	public float Speedness = 10.0f;
+	public float Speedness;
 	public float Gravity = 9.81f;
 	public float JumpSpeed = 50.0f;
+	public float ForwardMovement;
+	public float SprintingSpeed = 2000.0f;
+	public float DefaultSpeed = 10.0f;
 	
 	// Use this for initialization
 	void Start ()
@@ -19,16 +22,30 @@ public class MovePlayer : MonoBehaviour
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
+	void Update ()
+	{
+
+		ForwardMovement = DefaultSpeed;
+		Speedness = DefaultSpeed;
 		newPosition.x = Speedness * Input.GetAxis("Horizontal");
 		if (Input.GetKeyDown(KeyCode.Space))
 		{
 			newPosition.y = JumpSpeed;
 		}
+
+
+		if (Input.GetKeyDown(KeyCode.LeftShift))
+		{
+			DefaultSpeed += SprintingSpeed;
+		}
+
+		if (Input.GetKeyUp(KeyCode.LeftShift))
+		{
+			DefaultSpeed = 10.0f;
+		}
 		
-		newPosition.y -= Gravity;
-		//newPosition.z = Speedness * Input.GetAxis("Forward");
+	newPosition.y -= Gravity;
+		newPosition.z = ForwardMovement * Input.GetAxis("Vertical");
 		controller.Move(newPosition * Time.deltaTime);
 	}
 }
