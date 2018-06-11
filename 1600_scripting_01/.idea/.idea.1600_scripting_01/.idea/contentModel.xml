@@ -25,6 +25,9 @@
             <e p="Fish.cs" t="Include" />
             <e p="Mamal.cs" t="Include" />
           </e>
+          <e p="ChangeUIColor.cs" t="Include" />
+          <e p="ColorBehavior.cs" t="Include" />
+          <e p="DoAddition.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="Health" t="Include">
             <e p="HealthBehavior.cs" t="Include" />
@@ -37,6 +40,10 @@
           <e p="PowerUp.cs" t="Include" />
           <e p="PowerUpBase.cs" t="Include" />
           <e p="PowerUpBehavior.cs" t="Include" />
+          <e p="Prototyping" t="Include">
+            <e p="Character.cs" t="Include" />
+            <e p="CharacterStats.cs" t="Include" />
+          </e>
           <e p="Rockets" t="Include">
             <e p="RocketBase.cs" t="Include" />
             <e p="Rockets.cs" t="Include" />
