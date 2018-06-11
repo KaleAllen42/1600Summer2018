@@ -4,9 +4,9 @@ using JetBrains.Annotations;
 using UnityEngine;
 
 [CreateAssetMenu]
-public class FloatData : ScriptableObject
+public class CharacterStats : ScriptableObject	
 {
+	[Range(0,100)] public float Stats;
 
-   [Range(0,1)] public float Value;
-  
+
 }

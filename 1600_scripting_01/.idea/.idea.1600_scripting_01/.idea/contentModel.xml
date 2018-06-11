@@ -26,8 +26,17 @@
             <e p="Mamal.cs" t="Include" />
           </e>
 <<<<<<< HEAD
+<<<<<<< HEAD
           <e p="Health" t="Include">
 =======
+=======
+          <e p="Assignment1" t="Include">
+            <e p="PoweUpTester.cs" t="Include" />
+          </e>
+          <e p="ChangeUIColor.cs" t="Include" />
+          <e p="ColorBehavior.cs" t="Include" />
+          <e p="DoAddition.cs" t="Include" />
+>>>>>>> master
           <e p="FloatData.cs" t="Include" />
           <e p="Health" t="Include">
             <e p="HealthBehavior.cs" t="Include" />
@@ -38,12 +47,22 @@
             <e p="StartAndUpdate.cs" t="Include" />
           </e>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+          <e p="PlayerController" t="Include">
+            <e p="MovePlayer.cs" t="Include" />
+          </e>
+>>>>>>> master
           <e p="PlayerTrigger.cs" t="Include" />
 >>>>>>> master
           <e p="PowerUp.cs" t="Include" />
           <e p="PowerUpBase.cs" t="Include" />
           <e p="PowerUpBehavior.cs" t="Include" />
+          <e p="Prototyping" t="Include">
+            <e p="Character.cs" t="Include" />
+            <e p="CharacterStats.cs" t="Include" />
+          </e>
           <e p="Rockets" t="Include">
             <e p="RocketBase.cs" t="Include" />
             <e p="Rockets.cs" t="Include" />
