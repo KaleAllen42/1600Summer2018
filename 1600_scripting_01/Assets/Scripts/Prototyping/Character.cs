@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class Character : MonoBehaviour
 {
-	void Update()
+	void  Update()
 	{
 		if (Input.GetKey(KeyCode.W))
 			print("w");

@@ -25,6 +25,9 @@
             <e p="Fish.cs" t="Include" />
             <e p="Mamal.cs" t="Include" />
           </e>
+          <e p="Assignment1" t="Include">
+            <e p="PoweUpTester.cs" t="Include" />
+          </e>
           <e p="ChangeUIColor.cs" t="Include" />
           <e p="ColorBehavior.cs" t="Include" />
           <e p="DoAddition.cs" t="Include" />
@@ -35,6 +38,9 @@
           </e>
           <e p="OldScripts" t="Include">
             <e p="StartAndUpdate.cs" t="Include" />
+          </e>
+          <e p="PlayerController" t="Include">
+            <e p="MovePlayer.cs" t="Include" />
           </e>
           <e p="PlayerTrigger.cs" t="Include" />
           <e p="PowerUp.cs" t="Include" />
