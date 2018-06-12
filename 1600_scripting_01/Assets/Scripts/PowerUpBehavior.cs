@@ -1,15 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class PowerUpBehavior : MonoBehaviour {
+[CreateAssetMenu]
+public class PowerUpBehavior : ScriptableObject {
 
     public PowerUpBase PowerUp;
 
     private void OnTriggerEnter(Collider other)
     {
         PowerUp.RunPowerUp();
-        gameObject.SetActive(false);
+       //gameObject.SetActive(false);
     }
 }
 

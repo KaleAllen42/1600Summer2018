@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\10765081\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_1600_scripting_01.-430734634.00" t="ExcludeRecursive" />
-    <e p="C:\Users\10765081\Documents\1600Summer2018\1600_scripting_01" t="IncludeRecursive">
+    <e p="C:\Users\rebel_000\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_1600_scripting_01.436853805.00" t="ExcludeRecursive" />
+    <e p="C:\Users\rebel_000\Documents\1600Summer2018\1600_scripting_01" t="IncludeRecursive">
       <e p="1600_scripting_01.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -25,37 +25,25 @@
             <e p="Fish.cs" t="Include" />
             <e p="Mamal.cs" t="Include" />
           </e>
-<<<<<<< HEAD
-<<<<<<< HEAD
-          <e p="Health" t="Include">
-=======
-=======
           <e p="Assignment1" t="Include">
             <e p="PoweUpTester.cs" t="Include" />
           </e>
           <e p="ChangeUIColor.cs" t="Include" />
           <e p="ColorBehavior.cs" t="Include" />
           <e p="DoAddition.cs" t="Include" />
->>>>>>> master
           <e p="FloatData.cs" t="Include" />
           <e p="Health" t="Include">
             <e p="HealthBehavior.cs" t="Include" />
->>>>>>> master
             <e p="HealthPowerUp.cs" t="Include" />
           </e>
           <e p="OldScripts" t="Include">
             <e p="StartAndUpdate.cs" t="Include" />
           </e>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
           <e p="PlayerController" t="Include">
             <e p="MovePlayer.cs" t="Include" />
+            <e p="PlayerManager.cs" t="Include" />
           </e>
->>>>>>> master
           <e p="PlayerTrigger.cs" t="Include" />
->>>>>>> master
           <e p="PowerUp.cs" t="Include" />
           <e p="PowerUpBase.cs" t="Include" />
           <e p="PowerUpBehavior.cs" t="Include" />
@@ -66,6 +54,10 @@
           <e p="Rockets" t="Include">
             <e p="RocketBase.cs" t="Include" />
             <e p="Rockets.cs" t="Include" />
+          </e>
+          <e p="Weapons" t="Include">
+            <e p="WeaponBase.cs" t="Include" />
+            <e p="WeaponBeahvior.cs" t="Include" />
           </e>
         </e>
       </e>
