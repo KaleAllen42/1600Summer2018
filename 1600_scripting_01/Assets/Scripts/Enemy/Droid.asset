@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b87bafe67a30c8f4eb2d886e2af9b5fd, type: 3}
+  m_Name: Droid
+  m_EditorClassIdentifier: 
+  WeaponDamage: {fileID: 0}
+  MaxHealth: 100
+  StartingHealth: 0
+  PlayerName: 

@@ -188,7 +188,6 @@ GameObject:
   - component: {fileID: 461626778}
   - component: {fileID: 461626782}
   - component: {fileID: 461626784}
-  - component: {fileID: 461626783}
   m_Layer: 0
   m_Name: Ammo
   m_TagString: Untagged
@@ -275,18 +274,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &461626783
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 461626777}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 822bcddcf638cb443a6588485592a0e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PowerUp: {fileID: 11400000, guid: e01080163e0f96a4b80637a1a76d0515, type: 2}
 --- !u!114 &461626784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -316,7 +303,6 @@ GameObject:
   - component: {fileID: 572527507}
   - component: {fileID: 572527506}
   - component: {fileID: 572527505}
-  - component: {fileID: 572527504}
   - component: {fileID: 572527503}
   - component: {fileID: 572527502}
   m_Layer: 0
@@ -353,18 +339,6 @@ MonoBehaviour:
   PlayerName: Hank
   Health: 100
   LegCount: 1
---- !u!114 &572527504
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 572527501}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 822bcddcf638cb443a6588485592a0e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PowerUp: {fileID: 11400000, guid: e01080163e0f96a4b80637a1a76d0515, type: 2}
 --- !u!114 &572527505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -485,7 +459,6 @@ GameObject:
   - component: {fileID: 1140367943}
   - component: {fileID: 1140367942}
   - component: {fileID: 1140367941}
-  - component: {fileID: 1140367940}
   - component: {fileID: 1140367939}
   - component: {fileID: 1140367938}
   m_Layer: 0
@@ -522,18 +495,6 @@ MonoBehaviour:
   PlayerName: Hank
   Health: 100
   LegCount: 1
---- !u!114 &1140367940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1140367937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 822bcddcf638cb443a6588485592a0e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PowerUp: {fileID: 11400000, guid: e01080163e0f96a4b80637a1a76d0515, type: 2}
 --- !u!114 &1140367941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -915,7 +876,6 @@ GameObject:
   - component: {fileID: 1849755393}
   - component: {fileID: 1849755394}
   - component: {fileID: 1849755395}
-  - component: {fileID: 1849755396}
   - component: {fileID: 1849755397}
   - component: {fileID: 1849755388}
   m_Layer: 0
@@ -1043,18 +1003,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AnimalInfo: {fileID: 0}
---- !u!114 &1849755396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1849755387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 822bcddcf638cb443a6588485592a0e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PowerUp: {fileID: 11400000, guid: e01080163e0f96a4b80637a1a76d0515, type: 2}
 --- !u!114 &1849755397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1171,6 +1119,7 @@ GameObject:
   - component: {fileID: 2009416562}
   - component: {fileID: 2009416561}
   - component: {fileID: 2009416560}
+  - component: {fileID: 2009416565}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1258,6 +1207,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2009416565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2009416559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef3669c2c944cb3428095bbcb7901f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HealthLevel: {fileID: 11400000, guid: 6cf02d8d6d2b68f4099f177acd84fc3b, type: 2}
 --- !u!1 &2092287690
 GameObject:
   m_ObjectHideFlags: 0

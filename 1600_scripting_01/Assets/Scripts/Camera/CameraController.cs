@@ -2,8 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PoweUpTester : MonoBehaviour {
+public class CameraController : MonoBehaviour
+{
 
+	public GameObject player;
+
+	private Vector3 Offset;
+	
 	// Use this for initialization
 	void Start () {
 		

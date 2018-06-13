@@ -14,11 +14,12 @@ public class MovePlayer : MonoBehaviour
 	private Vector3 newPosition;
 	public float Speedness;
 	public float Gravity = 9.81f;
-	public float JumpSpeed = 50.0f;
+	public float JumpSpeed = 30.0f;
 	public float ForwardMovement;
-	public float SprintingSpeed = 200.0f;
+	public float SprintingSpeed = 20.0f;
 	public float DefaultSpeed = 10.0f;
 	public WeaponBase Weapon;
+	public bool CanRun  = false; 
 
 
 
@@ -26,35 +27,45 @@ public class MovePlayer : MonoBehaviour
 	void Start()
 	{
 		controller = GetComponent<CharacterController>();
-		
+		CanRun = false;	
+
 	}
 
 	// Update is called once per frame
 	void Update()
 	{
-		// defining player movement
-		ForwardMovement = DefaultSpeed;
-		Speedness = DefaultSpeed;
-		//defining axis speed was already taken so I used a nonword speedness
-		newPosition.x = Speedness * Input.GetAxis("Horizontal");
+	// defining player movement
+	ForwardMovement = DefaultSpeed;
+	Speedness = DefaultSpeed;
+	// Makes player able to move or not move. 
+	
+	//defining axis speed was already taken so I used a nonword speedness
+	newPosition.x = Speedness * Input.GetAxis("Horizontal");
+	// gets forward movement, for some reason unity calls vertical for the Z axis... but I guess up is the Y axis...
+	// which is???	
+	newPosition.z = ForwardMovement * Input.GetAxis("Vertical");
+		if (Input.GetKeyDown(KeyCode.LeftShift))
+		{
+			CanRun = true;
+		}
+		
+		if (Input.GetKeyUp(KeyCode.LeftShift))
+		{
+			CanRun = false;
+		}
 		// this allows for jumping
-		if (Input.GetKeyDown(KeyCode.Space))
+		if (Input.GetKeyDown(KeyCode.Space) && controller.isGrounded)
 		{
 			newPosition.y = JumpSpeed;
 		}
+	
+	//declares gravity
+	newPosition.y -= Gravity;	
+	// defines default update speed. 10 units per second.
+	controller.Move(newPosition * Time.deltaTime);
 
-
-
-
-		//declares gravity
-		newPosition.y -= Gravity;
-		// gets forward movement, for some reason unity calls vertical for the Z axis... but I guess up is the Y axis...
-		// which is???	
-		newPosition.z = ForwardMovement * Input.GetAxis("Vertical");
-		// defines default update speed. 10 units per second.
-		controller.Move(newPosition * Time.deltaTime);
-
-		// defines sprinting
+		
+		// defines old sprinting method
 		if (Input.GetKeyDown(KeyCode.LeftShift))
 		{
 			DefaultSpeed += SprintingSpeed;
@@ -65,12 +76,11 @@ public class MovePlayer : MonoBehaviour
 			DefaultSpeed = 10.0f;
 		}
 
-
-		if (Input.GetKeyDown(KeyCode.E))
+		if (Input.GetMouseButton(0))
 		{
-			print(Weapon.WeaponDamage); 
-
+			print(Weapon.WeaponDamage);
 		}
+		
 
 
 	}
