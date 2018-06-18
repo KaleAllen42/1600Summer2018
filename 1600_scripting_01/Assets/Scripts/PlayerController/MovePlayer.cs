@@ -18,7 +18,7 @@ public class MovePlayer : MonoBehaviour
 	public float ForwardMovement;
 	public float SprintingSpeed = 20.0f;
 	public float DefaultSpeed = 10.0f;
-	public WeaponBase Weapon;
+	public WeaponObject DoDamage;
 	public bool CanRun  = false; 
 
 
@@ -76,9 +76,9 @@ public class MovePlayer : MonoBehaviour
 			DefaultSpeed = 10.0f;
 		}
 
-		if (Input.GetMouseButton(0))
+		if (Input.GetMouseButtonDown(0))
 		{
-			print(Weapon.WeaponDamage);
+			print(DoDamage.DamageLevel);
 		}
 		
 

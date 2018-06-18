@@ -47,6 +47,7 @@
             <e p="IfStatements.cs" t="Include" />
             <e p="MovePlayer.cs" t="Include" />
             <e p="PlayerManager.cs" t="Include" />
+            <e p="ThirdPersonPlayer.cs" t="Include" />
           </e>
           <e p="PowerUp" t="Include">
             <e p="PlayerTrigger.cs" t="Include" />
@@ -65,6 +66,8 @@
           <e p="Weapons" t="Include">
             <e p="WeaponBase.cs" t="Include" />
             <e p="WeaponBeahvior.cs" t="Include" />
+            <e p="WeaponObject.cs" t="Include" />
+            <e p="WeaponsEnums.cs" t="Include" />
           </e>
         </e>
       </e>
