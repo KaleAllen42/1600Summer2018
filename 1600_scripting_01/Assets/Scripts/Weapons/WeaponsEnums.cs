@@ -26,10 +26,12 @@ public class WeaponsEnums : MonoBehaviour {
         switch (CurrentWeapon)
         {
             case WeaponType.DoubleSidedSaber:
-                
+                Debug.Log(WeaponObjects[0].name);
+                Debug.Log(WeaponObjects[0].DoDamage());
                 break;
             case WeaponType.DualSaber:
-               
+                Debug.Log(WeaponObjects[1].name);
+                Debug.Log(WeaponObjects[1].DoDamage());
                 break;
             case WeaponType.SingleSaber:
                 Debug.Log(WeaponObjects[2].name);
