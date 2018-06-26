@@ -24,7 +24,7 @@ public class ThirdPersonPlayer : MonoBehaviour
 
 	void Start()
 	{
-		//controller = GetComponent<CharacterController>();
+		controller = GetComponent<CharacterController>();
 		Cursor.lockState = CursorLockMode.Locked;
 		Cursor.visible = false;
 		Offset = player.transform.position - transform.position;
