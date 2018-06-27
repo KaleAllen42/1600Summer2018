@@ -10,11 +10,18 @@ public class Bullet : MonoBehaviour {
     public FloatData projectileUpgrade;
 
 	// Use this for initialization
-	void Start ()
+    private void OnEnable()
     {
         projectile = GetComponent<Rigidbody>();
-        projectile.AddForce(0,0,projectileSpeed.Value);       
-	}
+        projectile.AddForce(0,0,projectileSpeed.Value);   
+        Invoke("Deactivate", 5);
+    }
+   
+    private void Deactivate()
+    {
+        gameObject.SetActive(false);
+
+    }
 
     private void OnTriggerEnter(Collider other)
     {

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ThirdPersonController : MonoBehaviour {
 	
-	private CharacterController controller;
+	
 	private Vector3 newPosition;
 	public float gravity = 20f;
 	public float SprintingSpeed = 20.0f;
@@ -20,7 +20,7 @@ public class ThirdPersonController : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		controller = GetComponent<CharacterController>();
+		
 		Cursor.lockState = CursorLockMode.Locked;
 		Cursor.visible = false;
 		

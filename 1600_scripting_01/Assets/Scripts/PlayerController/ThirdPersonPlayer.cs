@@ -7,7 +7,7 @@ using UnityEngine.EventSystems;
 
 public class ThirdPersonPlayer : MonoBehaviour
 {
-	private CharacterController controller;
+	
 	private Vector3 newPosition;
 	//public Vector3 jump;
 	private Vector3 Offset;
@@ -19,12 +19,12 @@ public class ThirdPersonPlayer : MonoBehaviour
 	public GameObject player;
 	public WeaponBase Weapon;
 	//public Vector3 Gravitation;
-	private Vector3 moveDirection = Vector3.zero;
+	//private Vector3 moveDirection = Vector3.zero;
 	
 
 	void Start()
 	{
-		controller = GetComponent<CharacterController>();
+		
 		Cursor.lockState = CursorLockMode.Locked;
 		Cursor.visible = false;
 		Offset = player.transform.position - transform.position;
