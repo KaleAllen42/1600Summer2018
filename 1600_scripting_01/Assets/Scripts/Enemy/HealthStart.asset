@@ -8,9 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73ac9ed29ac6d3244a35a05016143ec0, type: 3}
-  m_Name: RedSaber
+  m_Script: {fileID: 11500000, guid: 5e75ed6f169601f4dae09f7cdce90689, type: 3}
+  m_Name: HealthStart
   m_EditorClassIdentifier: 
-  WeaponName: Double Bladed Red Saber
-  WeaponDamage: {fileID: 0}
-  weapon: 1
+  HealthValue: {fileID: 11400000, guid: 6cf02d8d6d2b68f4099f177acd84fc3b, type: 2}

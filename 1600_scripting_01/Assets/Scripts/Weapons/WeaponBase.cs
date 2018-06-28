@@ -7,7 +7,7 @@ public class WeaponBase : ScriptableObject
 {
 
     public string WeaponName;
-    [Range(0,100)]public float WeaponDamage;
+    public FloatData WeaponDamage;
     public float weapon;
 
 }
