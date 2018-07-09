@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d065e9f6621c4a46a8bc6fa4e0529c8, type: 3}
   m_Name: EvilPower
   m_EditorClassIdentifier: 
-  Value: 0.1
+  Value: -5

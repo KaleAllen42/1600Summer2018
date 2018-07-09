@@ -25,6 +25,8 @@ GameObject:
   - component: {fileID: 114435598315582968}
   - component: {fileID: 54243197139372036}
   - component: {fileID: 114404115939982146}
+  - component: {fileID: 114492451397938522}
+  - component: {fileID: 195754644012831046}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -126,7 +128,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65fe4cddc4dee8449b7d101b51fabfd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyBaseinfo: {fileID: 11400000, guid: 82ba69cc9f4124b42811df198604deae, type: 2}
+  DamageEvent: {fileID: 0}
+  HealthEvent: {fileID: 0}
+  WeaponBase: {fileID: 0}
+  HealthBase: {fileID: 0}
+  Droid: {fileID: 0}
+  Saber: {fileID: 0}
+  canDoDamage: 0
+--- !u!114 &114492451397938522
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1847986984990618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01ec1f683f3001f4e9fe2e1eae634477, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Destination: {fileID: 0}
 --- !u!136 &136321961831990306
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -140,3 +160,24 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!195 &195754644012831046
+NavMeshAgent:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1847986984990618}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5000001
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 3
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 1
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
