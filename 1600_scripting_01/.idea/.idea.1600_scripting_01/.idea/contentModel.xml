@@ -85,6 +85,9 @@
             <e p="WeaponsCollection.cs" t="Include" />
             <e p="WeaponsEnums.cs" t="Include" />
           </e>
+          <e p="While" t="Include">
+            <e p="WhileLoop.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
