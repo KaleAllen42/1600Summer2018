@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -299,7 +299,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &562023503
 MonoBehaviour:
@@ -313,6 +313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Destination: {fileID: 565185507}
+  Control: {fileID: 0}
 --- !u!195 &562023504
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -601,107 +602,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1091375138}
---- !u!1001 &1248906261
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -20.28
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 15.439999
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 114404115939982146, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1847986984990618, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_Name
-      value: Droid (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1847986984990618, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435598315582968, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
-        type: 2}
-      propertyPath: Droid
-      value: 
-      objectReference: {fileID: 1248906262}
-    - target: {fileID: 114492451397938522, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
-        type: 2}
-      propertyPath: Destination
-      value: 
-      objectReference: {fileID: 565185507}
-    m_RemovedComponents:
-    - {fileID: 114435598315582968, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-  m_ParentPrefab: {fileID: 100100000, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-  m_IsPrefabParent: 0
---- !u!1 &1248906262 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1847986984990618, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
-    type: 2}
-  m_PrefabInternal: {fileID: 1248906261}
---- !u!114 &1248906263
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1248906262}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65fe4cddc4dee8449b7d101b51fabfd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DamageEvent: {fileID: 11400000, guid: 100c4031f4a85e44294e154e1922fcd9, type: 2}
-  HealthEvent: {fileID: 11400000, guid: b10c4a0ec2df4de4caf4670895ea9d44, type: 2}
-  WeaponBase: {fileID: 11400000, guid: b025ae121d121c34795f6741d1bfe1c8, type: 2}
-  HealthBase: {fileID: 11400000, guid: b9234e4b9fe4c14499bbf2396a081879, type: 2}
-  Droid: {fileID: 1248906262}
-  Saber: {fileID: 698086584}
-  canDoDamage: 0
 --- !u!1 &1303993749
 GameObject:
   m_ObjectHideFlags: 0
@@ -850,109 +750,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1001 &1394517295
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -7.09
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -19.34
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 15.439999
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114404115939982146, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1847986984990618, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_Name
-      value: Droid (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1847986984990618, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435598315582968, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
-        type: 2}
-      propertyPath: Droid
-      value: 
-      objectReference: {fileID: 1394517296}
-    - target: {fileID: 114492451397938522, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
-        type: 2}
-      propertyPath: Destination
-      value: 
-      objectReference: {fileID: 565185507}
-    m_RemovedComponents:
-    - {fileID: 114435598315582968, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-  m_ParentPrefab: {fileID: 100100000, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-  m_IsPrefabParent: 0
---- !u!1 &1394517296 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1847986984990618, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
-    type: 2}
-  m_PrefabInternal: {fileID: 1394517295}
---- !u!114 &1394517297
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1394517296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65fe4cddc4dee8449b7d101b51fabfd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DamageEvent: {fileID: 11400000, guid: 100c4031f4a85e44294e154e1922fcd9, type: 2}
-  HealthEvent: {fileID: 11400000, guid: b10c4a0ec2df4de4caf4670895ea9d44, type: 2}
-  WeaponBase: {fileID: 11400000, guid: b025ae121d121c34795f6741d1bfe1c8, type: 2}
-  HealthBase: {fileID: 11400000, guid: b9234e4b9fe4c14499bbf2396a081879, type: 2}
-  Droid: {fileID: 1394517296}
-  Saber: {fileID: 698086584}
-  canDoDamage: 0
 --- !u!1 &1540858665
 GameObject:
   m_ObjectHideFlags: 0
@@ -1063,6 +862,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1697512508}
   - component: {fileID: 1697512507}
+  - component: {fileID: 1697512509}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -1076,7 +876,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1697512506}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1b67c9004a2d00246a2f4d25b0889851, type: 3}
   m_Name: 
@@ -1084,14 +884,15 @@ MonoBehaviour:
   CurrentHealth: 0
   WeaponDamage: 0
   Droids:
-  - {fileID: 2064207942}
-  - {fileID: 1394517296}
-  - {fileID: 1248906262}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   Droid: {fileID: 0}
   DamageEvent: {fileID: 11400000, guid: 100c4031f4a85e44294e154e1922fcd9, type: 2}
   HealthEvent: {fileID: 11400000, guid: b10c4a0ec2df4de4caf4670895ea9d44, type: 2}
   RoundText: {fileID: 0}
-  i: 3
+  i: 4
   Round: 1
   RoundComplete: 0
 --- !u!4 &1697512508
@@ -1107,6 +908,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1697512509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1697512506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba802d4c621cdc7429c6b45b1259c0cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Ai: {fileID: 1022917744247164, guid: 96cc2c3a464d77746996d8b081ca16b1, type: 2}
+  Destination: {fileID: 565185507}
+  CurrentLevel: {fileID: 11400000, guid: 751db304963763448934171774578509, type: 2}
 --- !u!1 &1835243714
 GameObject:
   m_ObjectHideFlags: 0
@@ -1193,111 +1008,10 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1001 &2064207941
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 4.22
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -19.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 15.44
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 114404115939982146, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1847986984990618, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_Name
-      value: Droid (0)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1847986984990618, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435598315582968, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
-        type: 2}
-      propertyPath: Droid
-      value: 
-      objectReference: {fileID: 2064207942}
-    - target: {fileID: 114492451397938522, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
-        type: 2}
-      propertyPath: Destination
-      value: 
-      objectReference: {fileID: 565185507}
-    m_RemovedComponents:
-    - {fileID: 114435598315582968, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-  m_ParentPrefab: {fileID: 100100000, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
-  m_IsPrefabParent: 0
---- !u!1 &2064207942 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1847986984990618, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
-    type: 2}
-  m_PrefabInternal: {fileID: 2064207941}
---- !u!114 &2064207943
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2064207942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65fe4cddc4dee8449b7d101b51fabfd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DamageEvent: {fileID: 11400000, guid: 100c4031f4a85e44294e154e1922fcd9, type: 2}
-  HealthEvent: {fileID: 11400000, guid: b10c4a0ec2df4de4caf4670895ea9d44, type: 2}
-  WeaponBase: {fileID: 11400000, guid: b025ae121d121c34795f6741d1bfe1c8, type: 2}
-  HealthBase: {fileID: 11400000, guid: b9234e4b9fe4c14499bbf2396a081879, type: 2}
-  Droid: {fileID: 2064207942}
-  Saber: {fileID: 698086584}
-  canDoDamage: 0

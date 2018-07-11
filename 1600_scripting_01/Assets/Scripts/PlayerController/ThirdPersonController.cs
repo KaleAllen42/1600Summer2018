@@ -14,7 +14,7 @@ public class ThirdPersonController : MonoBehaviour {
 	public WeaponBase Weapon;
 	private Vector3 moveDirection = Vector3.zero;
 	public float jumpForce = 0.01f;
-	private Vector3 Offset;
+	private Vector3 Offset = new Vector3();
 
 
 	// Use this for initialization
