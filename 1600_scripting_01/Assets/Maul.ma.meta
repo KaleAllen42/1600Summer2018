@@ -1,0 +1,324 @@
+fileFormatVersion: 2
+guid: ba6a366dd6c861a4f9f7fe883864cfc1
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Box0010
+    100002: Box0011
+    100004: Box0012
+    100006: Box0013
+    100008: Box0014
+    100010: Box0015
+    100012: Box0016
+    100014: Box003
+    100016: Box009
+    100018: Cylinder001
+    100020: Cylinder002
+    100022: Cylinder003
+    100024: Cylinder004
+    100026: Cylinder005
+    100028: Cylinder006
+    100030: Cylinder007
+    100032: Cylinder008
+    100034: Cylinder009
+    100036: Cylinder010
+    100038: Cylinder011
+    100040: Cylinder012
+    100042: Cylinder013
+    100044: Group1
+    100046: joint1
+    100048: //RootNode
+    100050: Pattern2D_453420
+    100052: Pattern2D_8500
+    100054: pCone009
+    100056: pCone1
+    100058: pCone2
+    100060: pCone4
+    100062: pCone5
+    100064: pCone6
+    100066: pCone7
+    100068: pCone8
+    100070: pCube14
+    100072: pCube18
+    100074: pCube7
+    100076: pCylinder10
+    100078: pCylinder8
+    100080: pSphere1
+    100082: pSphere2
+    100084: Saber
+    100086: Sphere001
+    100088: Sphere002
+    400000: Box0010
+    400002: Box0011
+    400004: Box0012
+    400006: Box0013
+    400008: Box0014
+    400010: Box0015
+    400012: Box0016
+    400014: Box003
+    400016: Box009
+    400018: Cylinder001
+    400020: Cylinder002
+    400022: Cylinder003
+    400024: Cylinder004
+    400026: Cylinder005
+    400028: Cylinder006
+    400030: Cylinder007
+    400032: Cylinder008
+    400034: Cylinder009
+    400036: Cylinder010
+    400038: Cylinder011
+    400040: Cylinder012
+    400042: Cylinder013
+    400044: Group1
+    400046: joint1
+    400048: //RootNode
+    400050: Pattern2D_453420
+    400052: Pattern2D_8500
+    400054: pCone009
+    400056: pCone1
+    400058: pCone2
+    400060: pCone4
+    400062: pCone5
+    400064: pCone6
+    400066: pCone7
+    400068: pCone8
+    400070: pCube14
+    400072: pCube18
+    400074: pCube7
+    400076: pCylinder10
+    400078: pCylinder8
+    400080: pSphere1
+    400082: pSphere2
+    400084: Saber
+    400086: Sphere001
+    400088: Sphere002
+    2100000: 07 - Default
+    2100002: 09 - Default
+    2100004: 03 - Default
+    2100006: 08 - Default
+    2100008: lambert1
+    2100010: lambert2
+    2100012: Default_Material
+    2300000: Box0010
+    2300002: Box0011
+    2300004: Box0012
+    2300006: Box0013
+    2300008: Box0014
+    2300010: Box0015
+    2300012: Box0016
+    2300014: Box003
+    2300016: Box009
+    2300018: Cylinder001
+    2300020: Cylinder002
+    2300022: Cylinder003
+    2300024: Cylinder004
+    2300026: Cylinder005
+    2300028: Cylinder006
+    2300030: Cylinder007
+    2300032: Cylinder008
+    2300034: Cylinder009
+    2300036: Cylinder010
+    2300038: Cylinder011
+    2300040: Cylinder012
+    2300042: Cylinder013
+    2300044: Group1
+    2300046: Pattern2D_453420
+    2300048: Pattern2D_8500
+    2300050: pCone009
+    2300052: pCone1
+    2300054: pCone2
+    2300056: pCone4
+    2300058: pCone5
+    2300060: pCone6
+    2300062: pCone7
+    2300064: pCone8
+    2300066: pCube14
+    2300068: pCube18
+    2300070: pCube7
+    2300072: pCylinder10
+    2300074: pCylinder8
+    2300076: pSphere1
+    2300078: pSphere2
+    2300080: Saber
+    2300082: Sphere001
+    2300084: Sphere002
+    3300000: Box0010
+    3300002: Box0011
+    3300004: Box0012
+    3300006: Box0013
+    3300008: Box0014
+    3300010: Box0015
+    3300012: Box0016
+    3300014: Box003
+    3300016: Box009
+    3300018: Cylinder001
+    3300020: Cylinder002
+    3300022: Cylinder003
+    3300024: Cylinder004
+    3300026: Cylinder005
+    3300028: Cylinder006
+    3300030: Cylinder007
+    3300032: Cylinder008
+    3300034: Cylinder009
+    3300036: Cylinder010
+    3300038: Cylinder011
+    3300040: Cylinder012
+    3300042: Cylinder013
+    3300044: Group1
+    3300046: Pattern2D_453420
+    3300048: Pattern2D_8500
+    3300050: pCone009
+    3300052: pCone1
+    3300054: pCone2
+    3300056: pCone4
+    3300058: pCone5
+    3300060: pCone6
+    3300062: pCone7
+    3300064: pCone8
+    3300066: pCube14
+    3300068: pCube18
+    3300070: pCube7
+    3300072: pCylinder10
+    3300074: pCylinder8
+    3300076: pSphere1
+    3300078: pSphere2
+    3300080: Saber
+    3300082: Sphere001
+    3300084: Sphere002
+    4300000: pSphere1
+    4300002: pSphere2
+    4300004: pCone1
+    4300006: pCone2
+    4300008: pCone4
+    4300010: pCone5
+    4300012: pCone6
+    4300014: pCone7
+    4300016: pCone8
+    4300018: Group1
+    4300020: pCone009
+    4300022: Pattern2D_8500
+    4300024: Pattern2D_453420
+    4300026: Cylinder001
+    4300028: Cylinder002
+    4300030: Cylinder003
+    4300032: Cylinder004
+    4300034: Cylinder005
+    4300036: Cylinder006
+    4300038: Cylinder007
+    4300040: Cylinder008
+    4300042: Cylinder009
+    4300044: Cylinder010
+    4300046: Cylinder011
+    4300048: Cylinder012
+    4300050: Sphere001
+    4300052: Cylinder013
+    4300054: Sphere002
+    4300056: Box003
+    4300058: Box009
+    4300060: pCube7
+    4300062: pCube14
+    4300064: Saber
+    4300066: pCube18
+    4300068: pCylinder8
+    4300070: pCylinder10
+    4300072: Box0010
+    4300074: Box0011
+    4300076: Box0012
+    4300078: Box0013
+    4300080: Box0014
+    4300082: Box0015
+    4300084: Box0016
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 - Default
+    second: {instanceID: 0}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 - Default
+    second: {fileID: 15303, guid: 0000000000000000f000000000000000, type: 0}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

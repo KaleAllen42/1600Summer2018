@@ -28,7 +28,8 @@ public class CombatRounds : MonoBehaviour
 		for (int i = 0; i < Droids.Count; i++)
 		{
 			Droids[i].SetActive((true));
-			
+			Round++;
+
 		}
 	}
 	//WIP
@@ -43,7 +44,7 @@ public class CombatRounds : MonoBehaviour
 	}
 
 
-	// IDEA Make a number for rounds then cound up rounds and spawn like 3 units, then next round up it to like 5 etc
+	// IDEA Make a number for rounds then round up rounds and spawn like 3 units, then next round up it to like 5 etc
 		IEnumerator Ticker()
 		{
 			while (RoundComplete)
@@ -52,10 +53,16 @@ public class CombatRounds : MonoBehaviour
 				yield return new WaitForSeconds(10);
 				i--;
 				RoundComplete = false;
-				Round++;
+
+			}
+
+			if (Round == 2)
+			{
+				Droids[i].SetActive((true));
 			}
 		}
 		
+	
 		
 		//Display.text = "Round 1";
 		//yield return WaitForSeconds(10);

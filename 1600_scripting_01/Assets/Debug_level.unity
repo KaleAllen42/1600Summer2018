@@ -299,7 +299,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream
   m_RootOrder: 5
+=======
+  m_RootOrder: 9
+>>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &562023503
 MonoBehaviour:
@@ -531,7 +535,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1091375138}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -2.72}
+  m_LocalPosition: {x: 0, y: 0, z: -2.21}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 942375137}
@@ -539,7 +543,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.67, y: 0.86}
+  m_AnchoredPosition: {x: 0, y: 1.31}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1091375140
@@ -584,10 +588,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 3
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -595,13 +599,140 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 
 --- !u!222 &1091375142
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1091375138}
+<<<<<<< Updated upstream
+=======
+--- !u!1 &1238058897 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1847986984990618, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
+    type: 2}
+  m_PrefabInternal: {fileID: 1573992151}
+--- !u!114 &1238058898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1238058897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65fe4cddc4dee8449b7d101b51fabfd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DamageEvent: {fileID: 11400000, guid: 100c4031f4a85e44294e154e1922fcd9, type: 2}
+  HealthEvent: {fileID: 11400000, guid: b10c4a0ec2df4de4caf4670895ea9d44, type: 2}
+  WeaponBase: {fileID: 11400000, guid: b025ae121d121c34795f6741d1bfe1c8, type: 2}
+  HealthBase: {fileID: 11400000, guid: b9234e4b9fe4c14499bbf2396a081879, type: 2}
+  Droid: {fileID: 1238058897}
+  Saber: {fileID: 698086584}
+  canDoDamage: 0
+--- !u!1001 &1248906261
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -20.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 15.439999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114404115939982146, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1847986984990618, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_Name
+      value: Droid (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1847986984990618, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114435598315582968, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
+        type: 2}
+      propertyPath: Droid
+      value: 
+      objectReference: {fileID: 1248906262}
+    - target: {fileID: 114492451397938522, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
+        type: 2}
+      propertyPath: Destination
+      value: 
+      objectReference: {fileID: 565185507}
+    m_RemovedComponents:
+    - {fileID: 114435598315582968, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1248906262 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1847986984990618, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
+    type: 2}
+  m_PrefabInternal: {fileID: 1248906261}
+--- !u!114 &1248906263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1248906262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65fe4cddc4dee8449b7d101b51fabfd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DamageEvent: {fileID: 11400000, guid: 100c4031f4a85e44294e154e1922fcd9, type: 2}
+  HealthEvent: {fileID: 11400000, guid: b10c4a0ec2df4de4caf4670895ea9d44, type: 2}
+  WeaponBase: {fileID: 11400000, guid: b025ae121d121c34795f6741d1bfe1c8, type: 2}
+  HealthBase: {fileID: 11400000, guid: b9234e4b9fe4c14499bbf2396a081879, type: 2}
+  Droid: {fileID: 1248906262}
+  Saber: {fileID: 698086584}
+  canDoDamage: 0
+>>>>>>> Stashed changes
 --- !u!1 &1303993749
 GameObject:
   m_ObjectHideFlags: 0
@@ -750,8 +881,114 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+=======
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &1394517295
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -7.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -19.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 15.439999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114404115939982146, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1847986984990618, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_Name
+      value: Droid (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1847986984990618, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114435598315582968, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
+        type: 2}
+      propertyPath: Droid
+      value: 
+      objectReference: {fileID: 1394517296}
+    - target: {fileID: 114492451397938522, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
+        type: 2}
+      propertyPath: Destination
+      value: 
+      objectReference: {fileID: 565185507}
+    m_RemovedComponents:
+    - {fileID: 114435598315582968, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1394517296 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1847986984990618, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
+    type: 2}
+  m_PrefabInternal: {fileID: 1394517295}
+--- !u!114 &1394517297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1394517296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65fe4cddc4dee8449b7d101b51fabfd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DamageEvent: {fileID: 11400000, guid: 100c4031f4a85e44294e154e1922fcd9, type: 2}
+  HealthEvent: {fileID: 11400000, guid: b10c4a0ec2df4de4caf4670895ea9d44, type: 2}
+  WeaponBase: {fileID: 11400000, guid: b025ae121d121c34795f6741d1bfe1c8, type: 2}
+  HealthBase: {fileID: 11400000, guid: b9234e4b9fe4c14499bbf2396a081879, type: 2}
+  Droid: {fileID: 1394517296}
+  Saber: {fileID: 698086584}
+  canDoDamage: 0
+>>>>>>> Stashed changes
 --- !u!1 &1540858665
 GameObject:
   m_ObjectHideFlags: 0
@@ -853,6 +1090,84 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1001 &1573992151
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 12.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -20.077
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 15.439999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114404115939982146, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1847986984990618, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_Name
+      value: Droid (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1847986984990618, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114435598315582968, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
+        type: 2}
+      propertyPath: Droid
+      value: 
+      objectReference: {fileID: 1238058897}
+    - target: {fileID: 114492451397938522, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
+        type: 2}
+      propertyPath: Destination
+      value: 
+      objectReference: {fileID: 565185507}
+    m_RemovedComponents:
+    - {fileID: 114435598315582968, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1697512506
 GameObject:
   m_ObjectHideFlags: 0
@@ -884,11 +1199,19 @@ MonoBehaviour:
   CurrentHealth: 0
   WeaponDamage: 0
   Droids:
+<<<<<<< Updated upstream
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   Droid: {fileID: 0}
+=======
+  - {fileID: 2064207942}
+  - {fileID: 1394517296}
+  - {fileID: 1248906262}
+  - {fileID: 1248906262}
+  Droid: {fileID: 1238058897}
+>>>>>>> Stashed changes
   DamageEvent: {fileID: 11400000, guid: 100c4031f4a85e44294e154e1922fcd9, type: 2}
   HealthEvent: {fileID: 11400000, guid: b10c4a0ec2df4de4caf4670895ea9d44, type: 2}
   RoundText: {fileID: 0}
@@ -1008,10 +1331,118 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream
   m_RootOrder: 7
+=======
+  m_RootOrder: 11
+>>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+<<<<<<< Updated upstream
+=======
+--- !u!1001 &2064207941
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 4.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -19.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 15.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114404115939982146, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1847986984990618, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_Name
+      value: Droid (0)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909428978977200, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1847986984990618, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114435598315582968, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
+        type: 2}
+      propertyPath: Droid
+      value: 
+      objectReference: {fileID: 2064207942}
+    - target: {fileID: 114492451397938522, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
+        type: 2}
+      propertyPath: Destination
+      value: 
+      objectReference: {fileID: 565185507}
+    m_RemovedComponents:
+    - {fileID: 114435598315582968, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: 02a2fbb4ee9c51341a97cce41d2d5f95, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &2064207942 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1847986984990618, guid: 02a2fbb4ee9c51341a97cce41d2d5f95,
+    type: 2}
+  m_PrefabInternal: {fileID: 2064207941}
+--- !u!114 &2064207943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2064207942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65fe4cddc4dee8449b7d101b51fabfd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DamageEvent: {fileID: 11400000, guid: 100c4031f4a85e44294e154e1922fcd9, type: 2}
+  HealthEvent: {fileID: 11400000, guid: b10c4a0ec2df4de4caf4670895ea9d44, type: 2}
+  WeaponBase: {fileID: 11400000, guid: b025ae121d121c34795f6741d1bfe1c8, type: 2}
+  HealthBase: {fileID: 11400000, guid: b9234e4b9fe4c14499bbf2396a081879, type: 2}
+  Droid: {fileID: 2064207942}
+  Saber: {fileID: 698086584}
+  canDoDamage: 0
+>>>>>>> Stashed changes
