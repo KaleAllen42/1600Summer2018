@@ -1,0 +1,343 @@
+fileFormatVersion: 2
+guid: 522de93a314e50a40a0b62572b15ffd9
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Box0010
+    100002: Box0013
+    100004: Box0015
+    100006: Box0016
+    100008: Box003
+    100010: Cylinder009
+    100012: Cylinder011
+    100014: //RootNode
+    100016: joint10
+    100018: joint10 1
+    100020: joint11
+    100022: joint11 1
+    100024: joint12
+    100026: joint12 1
+    100028: joint21
+    100030: joint22
+    100032: joint23
+    100034: joint24
+    100036: joint25
+    100038: joint26
+    100040: joint27
+    100042: joint28
+    100044: joint29
+    100046: joint30
+    100048: joint31
+    100050: joint32
+    100052: joint35
+    100054: joint36
+    100056: joint37
+    100058: joint38
+    100060: joint39
+    100062: joint9
+    100064: Maul:Box0012
+    100066: Maul:Box0014
+    100068: Maul:Cylinder001
+    100070: Maul:Cylinder002
+    100072: Maul:Cylinder003
+    100074: Maul:Cylinder004
+    100076: Maul:Cylinder005
+    100078: Maul:Cylinder006
+    100080: Maul:Cylinder007
+    100082: Maul:Cylinder008
+    100084: Maul:Cylinder010
+    100086: Maul:Cylinder012
+    100088: Maul:Cylinder013
+    100090: Maul:Group1
+    100092: Maul:pCone009
+    100094: Maul:pCone1
+    100096: Maul:pCone4
+    100098: Maul:pCone6
+    100100: Maul:pCone8
+    100102: Maul:Saber
+    100104: Pattern2D_453420
+    100106: Pattern2D_8500
+    100108: pCone10
+    100110: pCone2
+    100112: pCone5
+    100114: pCone7
+    100116: pCone9
+    100118: polySurface1
+    100120: polySurface2
+    100122: polySurface3
+    100124: pSphere1
+    100126: pSphere2
+    100128: pSphere3
+    100130: Sphere001
+    100132: Sphere002
+    100134: transform1
+    100136: transform2
+    100138: transform3
+    100140: transform4
+    400000: Box0010
+    400002: Box0013
+    400004: Box0015
+    400006: Box0016
+    400008: Box003
+    400010: Cylinder009
+    400012: Cylinder011
+    400014: //RootNode
+    400016: joint10
+    400018: joint10 1
+    400020: joint11
+    400022: joint11 1
+    400024: joint12
+    400026: joint12 1
+    400028: joint21
+    400030: joint22
+    400032: joint23
+    400034: joint24
+    400036: joint25
+    400038: joint26
+    400040: joint27
+    400042: joint28
+    400044: joint29
+    400046: joint30
+    400048: joint31
+    400050: joint32
+    400052: joint35
+    400054: joint36
+    400056: joint37
+    400058: joint38
+    400060: joint39
+    400062: joint9
+    400064: Maul:Box0012
+    400066: Maul:Box0014
+    400068: Maul:Cylinder001
+    400070: Maul:Cylinder002
+    400072: Maul:Cylinder003
+    400074: Maul:Cylinder004
+    400076: Maul:Cylinder005
+    400078: Maul:Cylinder006
+    400080: Maul:Cylinder007
+    400082: Maul:Cylinder008
+    400084: Maul:Cylinder010
+    400086: Maul:Cylinder012
+    400088: Maul:Cylinder013
+    400090: Maul:Group1
+    400092: Maul:pCone009
+    400094: Maul:pCone1
+    400096: Maul:pCone4
+    400098: Maul:pCone6
+    400100: Maul:pCone8
+    400102: Maul:Saber
+    400104: Pattern2D_453420
+    400106: Pattern2D_8500
+    400108: pCone10
+    400110: pCone2
+    400112: pCone5
+    400114: pCone7
+    400116: pCone9
+    400118: polySurface1
+    400120: polySurface2
+    400122: polySurface3
+    400124: pSphere1
+    400126: pSphere2
+    400128: pSphere3
+    400130: Sphere001
+    400132: Sphere002
+    400134: transform1
+    400136: transform2
+    400138: transform3
+    400140: transform4
+    2100000: 09 - Default
+    2100002: 08 - Default
+    2100004: lambert1
+    2100006: Maul_09 - Default
+    2100008: Maul_lambert2
+    2100010: 07 - Default
+    2100012: Maul_03 - Default
+    2300000: Maul:Saber
+    2300002: Pattern2D_8500
+    3300000: Maul:Saber
+    3300002: Pattern2D_8500
+    4300000: pCone2
+    4300002: pCone5
+    4300004: pCone7
+    4300006: Pattern2D_8500
+    4300008: Pattern2D_453420
+    4300010: Cylinder009
+    4300012: Cylinder011
+    4300014: Sphere001
+    4300016: Sphere002
+    4300018: Box003
+    4300020: Box0010
+    4300022: Box0013
+    4300024: Box0015
+    4300026: Box0016
+    4300028: Maul:pCone1
+    4300030: Maul:pCone4
+    4300032: Maul:pCone6
+    4300034: Maul:pCone8
+    4300036: Maul:pCone009
+    4300038: Maul:Cylinder001
+    4300040: Maul:Cylinder002
+    4300042: Maul:Cylinder003
+    4300044: Maul:Cylinder004
+    4300046: Maul:Cylinder005
+    4300048: Maul:Cylinder006
+    4300050: Maul:Cylinder007
+    4300052: Maul:Cylinder008
+    4300054: Maul:Cylinder010
+    4300056: Maul:Cylinder012
+    4300058: Maul:Cylinder013
+    4300060: Maul:Saber
+    4300062: Maul:Box0012
+    4300064: Maul:Box0014
+    4300066: polySurface1
+    4300068: polySurface2
+    4300070: polySurface3
+    4300072: pCone9
+    4300074: pCone10
+    7400000: Idle_Angry_huh
+    9500000: //RootNode
+    13700000: Box0010
+    13700002: Box0013
+    13700004: Box0015
+    13700006: Box0016
+    13700008: Box003
+    13700010: Cylinder009
+    13700012: Cylinder011
+    13700014: Maul:Box0012
+    13700016: Maul:Box0014
+    13700018: Maul:Cylinder001
+    13700020: Maul:Cylinder002
+    13700022: Maul:Cylinder003
+    13700024: Maul:Cylinder004
+    13700026: Maul:Cylinder005
+    13700028: Maul:Cylinder006
+    13700030: Maul:Cylinder007
+    13700032: Maul:Cylinder008
+    13700034: Maul:Cylinder010
+    13700036: Maul:Cylinder012
+    13700038: Maul:Cylinder013
+    13700040: Maul:pCone009
+    13700042: Maul:pCone1
+    13700044: Maul:pCone4
+    13700046: Maul:pCone6
+    13700048: Maul:pCone8
+    13700050: Pattern2D_453420
+    13700052: pCone10
+    13700054: pCone2
+    13700056: pCone5
+    13700058: pCone7
+    13700060: pCone9
+    13700062: polySurface1
+    13700064: polySurface2
+    13700066: polySurface3
+    13700068: Sphere001
+    13700070: Sphere002
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle_Angry_huh
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: joint22
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
